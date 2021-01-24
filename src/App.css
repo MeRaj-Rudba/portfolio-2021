@@ -6,8 +6,9 @@
   }
   
   .home,
-  .services,
-  .products,
+  .blogs,
+  .projects,
+  .aboutMe,
   .sign-up {
     display: flex;
     height: 90vh;
@@ -16,8 +17,16 @@
     font-size: 3rem;
   }
   
-  .services {
-    background-image: url('/src/images/img-2.jpg');
+  .blogs {
+    background-image: url('/src/images/img-6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  .aboutMe {
+    background-image: url('/src/images/img9.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,7 +34,7 @@
     font-size: 100px;
   }
   
-  .products {
+  .projects {
     background-image: url('/src/images/img-1.jpg');
     background-position: center;
     background-size: fill;
@@ -42,3 +51,34 @@
     color: #fff;
     font-size: 100px;
   }
+
+  
+.rotating-text-wrapper{
+  
+  
+  
+}
+.rotating-first-text{
+  font-size: 60px;
+}
+.rotating-text{
+  font-size: 40px;
+  
+}
+
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

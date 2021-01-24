@@ -11,7 +11,7 @@ import img5 from "../images/img-3.jpg";
 const Card = () => {
     return (
         <div className='cards'>
-            <h1>Check out these EPIC Destinations!</h1>
+            <h1>The Stack I Use</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>

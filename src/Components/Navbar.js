@@ -32,7 +32,7 @@ const Navbar = () => {
                     <Link to='/' className='navbar-logo'
                         onClick={closeMobileMenu}
                     >
-                        AF <i class="fas fa-dumbbell"></i>
+                        MR 
                     </Link>
                     <div className="menu-icon" onClick={handleToggleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -45,23 +45,33 @@ const Navbar = () => {
                         </li>
                         <li className='nav-item'>
                             <Link
-                                to='/services'
+                                to='/aboutMe'
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                Services
+                                About Me
+              </Link>
+                        </li>
+
+
+                        <li className='nav-item'>
+                            <Link
+                                to='/projects'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Projects
               </Link>
                         </li>
                         <li className='nav-item'>
                             <Link
-                                to='/packages'
+                                to='/blogs'
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                Packages
+                                Blogs
               </Link>
                         </li>
-
                         <li>
                             <Link
                                 to='/sign-up'
